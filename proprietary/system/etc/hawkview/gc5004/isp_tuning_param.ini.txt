@@ -1,0 +1,113 @@
+[isp_tuning_cfg]
+
+front_camera         = 0
+flicker_type         = 1
+flicker_ratio        = 20
+color_denoise_level  = 5
+flash_gain           = 80
+flash_delay_frame    = 16
+defog_value          = 1
+gamma_num            = 1
+
+hor_visual_angle     = 60
+ver_visual_angle     = 40
+focus_length         = 300
+[isp_drc_cfg]
+
+use_bright_contrast  = 1
+low_bright_supp      = 324
+low_bright_drc       = 24
+
+[isp_dpc_cfg]
+
+dpc_th_slop          = 4
+dpc_otf_min_th       = 16
+dpc_otf_max_th       = 2048
+
+[isp_gain_offset]
+
+#gain 
+gain_offset_0	= 275
+gain_offset_1	= 256
+gain_offset_2	= 256
+gain_offset_3	= 266
+                   
+#offset 
+gain_offset_4	= 0
+gain_offset_5	= 0
+gain_offset_6	= 0
+gain_offset_7	= 0
+
+
+
+[isp_lsc]
+
+lsc_mod           = 1
+lsc_center_x      = 2048
+lsc_center_y      = 2048
+
+[isp_csc]         
+
+csc_coeff_0       = 650
+csc_coeff_1       = 1350
+csc_coeff_2       = 1024
+csc_coeff_3       = 1024
+csc_coeff_4       = 1024
+csc_coeff_5       = 1024
+
+[isp_color_matrix0]
+
+#matrix
+matrix_0	= 256
+matrix_1	= 0
+matrix_2	= 0
+matrix_3	= -50
+matrix_4	= 306
+matrix_5	= 0
+matrix_6	= -2
+matrix_7	= -189
+matrix_8	= 447
+
+#offset
+matrix_9          = 0
+matrix_10         = 0
+matrix_11         = 0
+
+[isp_color_matrix1]
+
+#matrix
+matrix_0	= 301
+matrix_1	= -14
+matrix_2	= -31
+matrix_3	= -116
+matrix_4	= 372
+matrix_5	= 0
+matrix_6	= -11
+matrix_7	= -247
+matrix_8	= 514
+
+#offset
+matrix_9          = 0
+matrix_10         = 0
+matrix_11         = 0
+
+[isp_color_matrix2]
+
+#matrix
+matrix_0	= 384
+matrix_1	= -53
+matrix_2	= -75
+matrix_3	= -192
+matrix_4	= 448
+matrix_5	= 0
+matrix_6	= -20
+matrix_7	= -228
+matrix_8	= 504
+
+#offset
+matrix_9          = 0
+matrix_10         = 0
+matrix_11         = 0
+
+
+#20150326 lwj
