@@ -2,4 +2,4 @@
 
 Proprietary blobs for Dragon Touch X10
 
-This is still a WIP
+This is still a WIP, but getting closer...
