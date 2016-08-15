@@ -15,4 +15,4 @@
 LOCAL_PATH := vendor/TabletExpress/X10
 
 PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/TabletExpress/10/proprietary/system,system)
+	$(call find-copy-subdir-files,*,vendor/TabletExpress/X10/proprietary/system,system)
